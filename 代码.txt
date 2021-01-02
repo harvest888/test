@@ -1,0 +1,9 @@
+<div>
+ 
+       <input type="button" value="复制" 
+onclick="var selectText = window.getSelection();var obj=document.getElementById('txt');
+obj.innerHTML=selectText;obj.select();document.execCommand('Copy');">
+ 
+<textarea id="txt" rows="6" cols="40"></textarea>
+ 
+</div>
